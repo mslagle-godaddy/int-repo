@@ -6,7 +6,7 @@ class DogBreedRemoteDataSource {
     suspend fun getDogBreeds() : Result<List<DogBreed>> {
         val isError = (1..5).random() == 1
 
-        val networkDelay = (1L..1000L).random()
+        val networkDelay = (1L..100L).random()
         delay(networkDelay)
 
         return if (isError) {
