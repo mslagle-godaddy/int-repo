@@ -15,6 +15,7 @@ Once data is rendered, implement a basic search bar that will filter the list ba
 Unit test as much as possible given the time constraints.
 
 ## Notes
+- The main focus should be on getting the data from the remote source, bringing it up through the viewmodel, and rendering it to the screen using the practices, preferences, and architecture you see as best. The UI is NOT the focus of this exercise, it should just be functional.
 - You can use any libraries or frameworks you want
 - You can use any design patterns you want
 - You can change or extend any part of the initial codebase with the exception of the data fetching logic
