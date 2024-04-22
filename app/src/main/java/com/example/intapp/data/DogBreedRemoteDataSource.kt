@@ -2,7 +2,7 @@ package com.example.intapp.data
 
 import kotlinx.coroutines.delay
 
-class DogBreedRepository {
+class DogBreedRemoteDataSource {
     suspend fun getDogBreeds() : Result<List<DogBreed>> {
         val isError = (1..5).random() == 1
 
