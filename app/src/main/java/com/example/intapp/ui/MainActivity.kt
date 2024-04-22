@@ -18,6 +18,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             IntAppTheme {
                 // TODO: Add your app view here
+                Text(text = "Hello!")
             }
         }
     }
